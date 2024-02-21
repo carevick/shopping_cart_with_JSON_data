@@ -1,0 +1,48 @@
+{
+  "listItems": [
+    {
+      "image": "./img/set_gt-s_cross_drilled.png",
+      "name": "Set of GT-S Series Cross Drilled",
+      "description": {
+        "brand": "Brembo",
+        "color": "Red"
+      },
+      "quantity": "1",
+      "currency": "$",
+      "price": "1770.00"
+    },
+    {
+      "image": "./img/just_disk_gt-s_cross_drilled.png",
+      "name": "Just Disk GT-S Cross Drilled",
+      "description": {
+        "brand": "Barbour International",
+        "size": "405mm"
+      },
+      "quantity": "1",
+      "currency": "$",
+      "price": "950.00"
+    },
+    {
+      "image": "./img/gt_slotted_2_piece_brake_rotors.png",
+      "name": "GT Slotted 2 Piece Brake Rotors",
+      "description": {
+        "brand": "Brembo",
+        "color": "Yellow"
+      },
+      "quantity": "2",
+      "currency": "$",
+      "price": "1670.00"
+    },
+    {
+      "image": "./img/brake_fluid.png",
+      "name": "Brake Fluid",
+      "description": {
+        "brand": "Valvoline",
+        "type": "Dot 3 & 4"
+      },
+      "quantity": "1",
+      "currency": "$",
+      "price": "9.88"
+    }
+  ]
+}

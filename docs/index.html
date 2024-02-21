@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to publish WebPages with JSON data</title>
+    <link rel="stylesheet" href="css/shoppingCart.css" />
+  </head>
+  <body>
+    <h1>How to publish WebPages with JSON data</h1>
+    <h2 style="margin-bottom: 1rem">for: "Shopping cart"</h2>
+
+    <header class="cart-icon">
+      <button type="button" name="cart" onclick="showCartItems()">
+        <img src="./img/cart.png" alt="Cart" />
+      </button>
+    </header>
+
+    <main>
+      <div class="triangle"></div>
+      <div class="cart-items">
+        <!-- place for <h2> -->
+        <nav>
+          <button
+            type="button"
+            onclick="scrollUpButton()"
+            class="scroll-up_button"
+          >
+            <div class="arrow up"></div>
+          </button>
+          <ul>
+            <!-- place for <li> elements -->
+          </ul>
+          <button
+            type="button"
+            onclick="scrollDownButton()"
+            class="scroll-down_button"
+          >
+            <div class="arrow down"></div>
+          </button>
+        </nav>
+        <div class="buttons-final">
+          <button type="button" class="button-final">Edit Cart</button>
+          <button type="button" class="button-final button-final-2">
+            CHECKOUT
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script type="module">
+      // import { initCartHeader } from "./js/initCartHeader.js";
+      // initCartHeader();
+
+      import { findItems } from "./js/catalog.js";
+      await findItems();
+      // ili ako baš treba ovako: const items = await findItems();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
